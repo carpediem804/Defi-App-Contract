@@ -1,18 +1,24 @@
 import { ethers } from "hardhat";
 
 async function main() {
-  const currentTimestampInSeconds = Math.round(Date.now() / 1000);
-  const ONE_YEAR_IN_SECS = 365 * 24 * 60 * 60;
-  const unlockTime = currentTimestampInSeconds + ONE_YEAR_IN_SECS;
+  const [deployer] = await ethers.getSigners();
+  //config 의 private key에 맵핑되는 것
+  console.log("Deploying contracts with the account : ", deployer.address);
 
-  const lockedAmount = ethers.utils.parseEther("1");
+  const Factory = await ethers.getContractFactory("Factory");
+  const contract = await Factory.deploy();
 
-  const Lock = await ethers.getContractFactory("Lock");
-  const lock = await Lock.deploy(unlockTime, { value: lockedAmount });
+  const THToken = await ethers.getContractFactory("Token");
+  const THTokenContract = await THToken.deploy("TaeHongToken", "TH", 1000);
 
-  await lock.deployed();
+  const ExchangeFactory = await ethers.getContractFactory("Exchange");
+  const ExchangeContract = await ExchangeFactory.deploy(
+    THTokenContract.address
+  );
 
-  console.log("Lock with 1 ETH deployed to:", lock.address);
+  console.log("Factory Contract Deployed at : ", contract.address);
+  console.log("Token Contract Deployed at : ", THTokenContract.address);
+  console.log("Exchange Contract Deployed at : ", ExchangeContract.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
