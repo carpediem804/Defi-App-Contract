@@ -35,13 +35,13 @@ StakingReward Contract
 ## Deloyed Goreli 
 Deploying contracts with the account :  0x73e4160145caFC3495F2993FaF86c91F16e54622
 
-Factory Contract Deployed at :  0xeA8B952Ed4E5393C1935Ba25Fe3e5A2bc85D824C
+Factory Contract Deployed at :  [0xeA8B952Ed4E5393C1935Ba25Fe3e5A2bc85D824C](https://goerli.etherscan.io/address/0xeA8B952Ed4E5393C1935Ba25Fe3e5A2bc85D824C#code)
 
-Token Contract Deployed at :  0xEF81F5c21741a3cD4e6287EAEc7C35012e670338
+Token Contract Deployed at :  [0xEF81F5c21741a3cD4e6287EAEc7C35012e670338](https://goerli.etherscan.io/address/0xEF81F5c21741a3cD4e6287EAEc7C35012e670338#code)
 
-Exchange Contract Deployed at :  0xB322C31048A7aD9e6C600Cee2d7AFb8D62775AB0
+Exchange Contract Deployed at :  [0xB322C31048A7aD9e6C600Cee2d7AFb8D62775AB0](https://goerli.etherscan.io/address/0xB322C31048A7aD9e6C600Cee2d7AFb8D62775AB0#code)
 
-StakingReward Contract Deployed at :  (0x2EeB3cEbF066E016a5A12048FD0F3d11026efef2)[https://goerli.etherscan.io/address/0x2EeB3cEbF066E016a5A12048FD0F3d11026efef2#code]
+StakingReward Contract Deployed at :  [0x2EeB3cEbF066E016a5A12048FD0F3d11026efef2](https://goerli.etherscan.io/address/0x2EeB3cEbF066E016a5A12048FD0F3d11026efef2#code)
 
 
 
