@@ -18,6 +18,20 @@ Factory Contract
 - getExchangeAddress
 
 
+StakingReward Contract 
+- totalSupply
+- balanceOf
+- stake
+- withDraw
+- getReward
+- notifyRewardAmount
+- lastTimeRewardApplicable
+- rewardPerToken
+- earned
+- updateReward
+
+
+
 ## Deloyed Goreli 
 Deploying contracts with the account :  0x73e4160145caFC3495F2993FaF86c91F16e54622
 
