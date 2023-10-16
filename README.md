@@ -41,6 +41,8 @@ Token Contract Deployed at :  0xEF81F5c21741a3cD4e6287EAEc7C35012e670338
 
 Exchange Contract Deployed at :  0xB322C31048A7aD9e6C600Cee2d7AFb8D62775AB0
 
+StakingReward Contract Deployed at :  0x2EeB3cEbF066E016a5A12048FD0F3d11026efef2
+
 
 
 ```shell
