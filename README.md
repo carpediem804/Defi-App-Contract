@@ -43,7 +43,8 @@ Exchange Contract Deployed at :  [0xB322C31048A7aD9e6C600Cee2d7AFb8D62775AB0](ht
 
 StakingReward Contract Deployed at :  [0x2EeB3cEbF066E016a5A12048FD0F3d11026efef2](https://goerli.etherscan.io/address/0x2EeB3cEbF066E016a5A12048FD0F3d11026efef2#code)
 
-
+NFT Contract Deployed at : [0xAdEE79E77c46f9266Cfb4332F822c740Cd630363]
+(https://goerli.etherscan.io/address/0xAdEE79E77c46f9266Cfb4332F822c740Cd630363#code)
 
 ```shell
 yarn
