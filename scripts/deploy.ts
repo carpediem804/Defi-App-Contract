@@ -16,9 +16,20 @@ async function main() {
     THTokenContract.address
   );
 
+  const StakingFactory = await ethers.getContractFactory("StakingRewords");
+  const StakingContract = await StakingFactory.deploy(
+    "0xEF81F5c21741a3cD4e6287EAEc7C35012e670338",
+    "0xEF81F5c21741a3cD4e6287EAEc7C35012e670338"
+  );
+
+  const NFTFactory = await ethers.getContractFactory("NFT");
+  const NFTContract = await NFTFactory.deploy();
+
   console.log("Factory Contract Deployed at : ", contract.address);
   console.log("Token Contract Deployed at : ", THTokenContract.address);
   console.log("Exchange Contract Deployed at : ", ExchangeContract.address);
+  console.log("StakingReward Contract Deployed at : ", StakingContract.address);
+  console.log("NFT Contract Deployed at :", NFTContract.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
